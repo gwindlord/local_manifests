@@ -77,7 +77,6 @@
   <remove-project name="SlimSaber/KernelAdiutor" />
   <remove-project name="SlimSaber/packages_apps_SlimOTA" />
   <remove-project name="SlimSaber/packages_apps_ScreenRecorder" />
-  <!--remove-project name="CyanogenMod/android_packages_apps_Camera2" /-->
   <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <remove-project name="SlimRoms/packages_apps_SlimLauncher" />
 
