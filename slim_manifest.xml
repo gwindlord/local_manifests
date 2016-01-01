@@ -80,5 +80,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <remove-project name="SlimRoms/packages_apps_SlimLauncher" />
 
-</manifest>
+  <remove-project name="SlimRoms/packages_apps_Browser" />
 
+</manifest>
