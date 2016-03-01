@@ -11,15 +11,17 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
 
- <!--Repositories to fetch-->
-  <!--project name="YoshiShaPow/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.1-caf" />
-  <project name="YoshiShaPow/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="egg-slimsaber-caf" />
-  <project name="YoshiShaPow/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.1-caf" /-->
+  <!--remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" /-->
 
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+ <!--Repositories to fetch-->
+
+  <!--project name="jgcaaprom/x86_64_linux_glibc_2.20_4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="github" revision="master" /-->
+
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="stable/cm-12.1-YOG7D" />
+
+  <project name="sultanxda/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-13.0-caf" />
 
   <project name="sultanxda/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.1-caf" />
-  <project name="sultanxda/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-13.0-caf" />
   <project name="sultanxda/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1-caf" />
@@ -29,8 +31,10 @@
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-12.1-caf" />
 
   <project name="SlimSaber/device_oppo_common" path="device/oppo/common" remote="github" revision="lp5.1" />
-  <project name="SlimSaber/uber_arm-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="master" />
-  <project name="SlimSaber/uber_arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15" remote="github" revision="master" />
+  <!--project name="SlimSaber/uber_arm-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="master" /-->
+  <project name="UBERTC/arm-linux-androideabi-4.9-old" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master" />
+  <!--project name="UBERTC/arm-linux-androideabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master" /-->
+  <!--project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="uber-4.9-arm-linux-androideabi" /-->
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
@@ -63,6 +67,8 @@
 
  <!-- My repositories to fetch -->
   <project name="UBERTC/arm-eabi-6.0" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" remote="bb" revision="master" />
+  <!--project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/archi-arm-eabi-4.9" remote="github" revision="architoolchain-4.9-arm-linux-gnueabi-generic" /-->
+
   <project path="vendor/gwindlord" name="gwindlord/vendor_gwindlord" remote="github" revision="master" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="refs/heads/cm-12.1" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="refs/heads/cm-12.1" />
@@ -79,5 +85,6 @@
   <remove-project name="SlimSaber/packages_apps_ScreenRecorder" />
   <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <remove-project name="SlimRoms/packages_apps_SlimLauncher" />
+  <remove-project name="SlimSaber/uber_arm-eabi-4.8" />
 
 </manifest>
