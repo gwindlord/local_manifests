@@ -13,13 +13,11 @@
 
   <!--remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" /-->
 
-  <remove-project name="SlimRoms/android_external_lz4" />
   <remove-project name="SlimSaber/android_external_sqlite" />
   <remove-project name="SlimSaber/android_bionic" />
 
  <!--Repositories to fetch-->
 
-  <project name="jgcaaprom/android_external_lz4" path="external/lz4" remote="github" revision="cm-13.0" />
   <project name="jgcaaprom/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
   <project name="jgcaaprom/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
 
@@ -27,8 +25,7 @@
 
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="stable/cm-12.1-YOG7D" />
 
-  <!--project name="sultanxda/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-13.0-caf" /-->
-  <project name="sultanxda/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="new-cam" />
+  <project name="sultanxda/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-13.0-caf" />
 
   <project name="sultanxda/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.1-caf" />
