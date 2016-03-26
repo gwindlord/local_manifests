@@ -13,13 +13,7 @@
 
   <!--remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" /-->
 
-  <remove-project name="SlimSaber/android_external_sqlite" />
-  <remove-project name="SlimSaber/android_bionic" />
-
  <!--Repositories to fetch-->
-
-  <project name="jgcaaprom/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-12.1" />
-  <project name="jgcaaprom/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
 
   <!--project name="jgcaaprom/x86_64_linux_glibc_2.20_4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="github" revision="master" /-->
 
