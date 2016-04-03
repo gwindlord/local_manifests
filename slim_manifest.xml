@@ -28,7 +28,7 @@
   <project name="sultanxda/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-12.1-caf" />
-  <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-12.1-caf" />
+  <!--project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-12.1-caf" /-->
 
   <project name="SlimSaber/device_oppo_common" path="device/oppo/common" remote="github" revision="lp5.1" />
   <!--project name="SlimSaber/uber_arm-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="master" /-->
@@ -69,6 +69,7 @@
   <project name="UBERTC/arm-eabi-6.0" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" remote="bb" revision="master" />
   <!--project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/archi-arm-eabi-4.9" remote="github" revision="architoolchain-4.9-arm-linux-gnueabi-generic" /-->
 
+  <project path="packages/apps/SnapdragonCamera" name="gwindlord/android_packages_apps_SnapdragonCamera" remote="github" revision="cm-12.1-caf" />
   <project path="vendor/gwindlord" name="gwindlord/vendor_gwindlord" remote="github" revision="master" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="refs/heads/cm-12.1" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="refs/heads/cm-12.1" />
