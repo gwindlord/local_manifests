@@ -11,11 +11,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
 
-  <!--remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" /-->
-
  <!--Repositories to fetch-->
-
-  <!--project name="jgcaaprom/x86_64_linux_glibc_2.20_4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="github" revision="master" /-->
 
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="stable/cm-12.1-YOG7D" />
 
@@ -70,6 +66,7 @@
   <!--project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/archi-arm-eabi-4.9" remote="github" revision="architoolchain-4.9-arm-linux-gnueabi-generic" /-->
 
   <project path="packages/apps/SnapdragonCamera" name="gwindlord/android_packages_apps_SnapdragonCamera" remote="github" revision="cm-12.1-caf" />
+  <project path="packages/apps/Snap" name="gwindlord/android_packages_apps_Snap" remote="github" revision="cm-12.1" />
   <project path="vendor/gwindlord" name="gwindlord/vendor_gwindlord" remote="github" revision="master" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="refs/heads/cm-12.1" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="refs/heads/cm-12.1" />
