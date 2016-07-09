@@ -6,12 +6,17 @@
  <!-- ================================================================================================================================== -->
 
  <!--Repositories to replace-->
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+  <!--remove-project name="CyanogenMod/android_hardware_qcom_audio" /-->
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+  <remove-project name="external/jhead" />
+  <remove-project name="platform/external/conscrypt" />
 
  <!--Repositories to fetch-->
+
+  <project path="external/conscrypt" name="CyanogenMod/android_external_conscrypt" groups="pdk-cw-fs" remote="github" revision="stable/cm-12.1-YOG7D" />
+  <project path="external/jhead" name="CyanogenMod/android_external_jhead" groups="pdk" remote="github" revision="stable/cm-12.1-YOG7D" />
 
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="stable/cm-12.1-YOG7D" />
 
@@ -21,10 +26,14 @@
   <project name="sultanxda/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1-caf" />
-  <project name="sultanxda/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="github" revision="cm-12.1-caf" />
+  <!--project name="sultanxda/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="github" revision="cm-12.1-caf" /-->
   <project name="sultanxda/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="github" revision="cm-12.1-caf" />
   <project name="sultanxda/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-12.1-caf" />
   <!--project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-12.1-caf" /-->
+
+  <!--project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-13.0" /-->
 
   <project name="SlimSaber/device_oppo_common" path="device/oppo/common" remote="github" revision="lp5.1" />
   <!--project name="SlimSaber/uber_arm-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="master" /-->
